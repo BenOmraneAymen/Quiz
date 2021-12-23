@@ -1,0 +1,108 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Cairo", sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-color: white;
+  width: 50%;
+  position: absolute;
+  bottom: 75.5%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  border-radius: 10px 10px 0% 0%;
+}
+.quiz {
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0px 0px 10px 10px;
+}
+
+#title {
+  position: relative;
+}
+#logo {
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.title1 {
+  display: inline-block;
+  position: absolute;
+  left: 40%;
+  top: 25%;
+  font-size: 1.5rem;
+}
+
+.title2 {
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: blueviolet;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.QA {
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.question {
+  margin: 30px;
+  font-size: 1rem;
+}
+.answer {
+  margin: 10px 40px;
+  background-color: rgb(179, 179, 179);
+  padding: 20px;
+  font-size: 1rem;
+}
+footer {
+  background-color: white;
+  width: 50%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 75.25%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  border-radius: 0% 0% 10px 10px;
+}
+
+.checked {
+  border: 2px solid purple;
+}
+
+.crown {
+  width: 30%;
+}
+.congrats {
+  margin: 10px;
+}
